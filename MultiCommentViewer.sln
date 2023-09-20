@@ -137,9 +137,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeLiveMessageParserIF"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeLiveMessageParserTests", "YouTubeLiveMessageParser\YouTubeLiveSitePluginTests\YouTubeLiveMessageParserTests.csproj", "{8FD19D9D-DBDA-4015-9F2C-0166226ACD1A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirebasePlugin", "..\master\FirebasePlugin\FirebasePlugin.csproj", "{309A2439-B8E2-468D-9259-C1C6DB9D1F8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirebasePlugin", "FirebasePlugin\FirebasePlugin.csproj", "{A195C686-2155-4C43-A2BF-F0B640413273}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirebasePluginTests", "..\master\FirebasePluginTests\FirebasePluginTests.csproj", "{9D8793B8-BE32-4750-A431-2B50B8EAF74F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirebasePluginTests", "FirebasePluginTests\FirebasePluginTests.csproj", "{B533FE91-8FBD-44E3-93AA-D289FFB199D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -645,22 +645,22 @@ Global
 		{8FD19D9D-DBDA-4015-9F2C-0166226ACD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FD19D9D-DBDA-4015-9F2C-0166226ACD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FD19D9D-DBDA-4015-9F2C-0166226ACD1A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{309A2439-B8E2-468D-9259-C1C6DB9D1F8D}.Alpha|Any CPU.ActiveCfg = Alpha|Any CPU
-		{309A2439-B8E2-468D-9259-C1C6DB9D1F8D}.Alpha|Any CPU.Build.0 = Alpha|Any CPU
-		{309A2439-B8E2-468D-9259-C1C6DB9D1F8D}.Beta|Any CPU.ActiveCfg = Beta|Any CPU
-		{309A2439-B8E2-468D-9259-C1C6DB9D1F8D}.Beta|Any CPU.Build.0 = Beta|Any CPU
-		{309A2439-B8E2-468D-9259-C1C6DB9D1F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{309A2439-B8E2-468D-9259-C1C6DB9D1F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{309A2439-B8E2-468D-9259-C1C6DB9D1F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{309A2439-B8E2-468D-9259-C1C6DB9D1F8D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D8793B8-BE32-4750-A431-2B50B8EAF74F}.Alpha|Any CPU.ActiveCfg = Alpha|Any CPU
-		{9D8793B8-BE32-4750-A431-2B50B8EAF74F}.Alpha|Any CPU.Build.0 = Alpha|Any CPU
-		{9D8793B8-BE32-4750-A431-2B50B8EAF74F}.Beta|Any CPU.ActiveCfg = Beta|Any CPU
-		{9D8793B8-BE32-4750-A431-2B50B8EAF74F}.Beta|Any CPU.Build.0 = Beta|Any CPU
-		{9D8793B8-BE32-4750-A431-2B50B8EAF74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D8793B8-BE32-4750-A431-2B50B8EAF74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D8793B8-BE32-4750-A431-2B50B8EAF74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D8793B8-BE32-4750-A431-2B50B8EAF74F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A195C686-2155-4C43-A2BF-F0B640413273}.Alpha|Any CPU.ActiveCfg = Alpha|Any CPU
+		{A195C686-2155-4C43-A2BF-F0B640413273}.Alpha|Any CPU.Build.0 = Alpha|Any CPU
+		{A195C686-2155-4C43-A2BF-F0B640413273}.Beta|Any CPU.ActiveCfg = Beta|Any CPU
+		{A195C686-2155-4C43-A2BF-F0B640413273}.Beta|Any CPU.Build.0 = Beta|Any CPU
+		{A195C686-2155-4C43-A2BF-F0B640413273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A195C686-2155-4C43-A2BF-F0B640413273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A195C686-2155-4C43-A2BF-F0B640413273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A195C686-2155-4C43-A2BF-F0B640413273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B533FE91-8FBD-44E3-93AA-D289FFB199D8}.Alpha|Any CPU.ActiveCfg = Alpha|Any CPU
+		{B533FE91-8FBD-44E3-93AA-D289FFB199D8}.Alpha|Any CPU.Build.0 = Alpha|Any CPU
+		{B533FE91-8FBD-44E3-93AA-D289FFB199D8}.Beta|Any CPU.ActiveCfg = Beta|Any CPU
+		{B533FE91-8FBD-44E3-93AA-D289FFB199D8}.Beta|Any CPU.Build.0 = Beta|Any CPU
+		{B533FE91-8FBD-44E3-93AA-D289FFB199D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B533FE91-8FBD-44E3-93AA-D289FFB199D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B533FE91-8FBD-44E3-93AA-D289FFB199D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B533FE91-8FBD-44E3-93AA-D289FFB199D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
