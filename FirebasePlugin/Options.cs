@@ -1,13 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Input;
-using System.Windows.Media;
-using GalaSoft.MvvmLight;
-using System.Runtime.Serialization;
 using Common;
 
 namespace FirebasePlugin
@@ -43,9 +34,9 @@ namespace FirebasePlugin
 
         private static readonly string _FirebaseProjectId = "Your project ID";
         private static readonly string _FirebaseConfigJsonPath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), @"MultiCommentViewer\FirebasePlugin\your-project-id-XXXXXXXXXXXX.json");
-        private static readonly string _FirestoreYouTubeLiveCommentCollectionPath = "youtube-live-comments";
-        private static readonly string _FirestoreYouTubeUserCollectionPath = "youtube-users";
-        private static readonly string _FirestoreYouTubeLiveConnectedCollectionPath = "youtube-live-connection-logs";
-        private static readonly string _FirestoreYouTubeLiveDisconnectedCollectionPath = "youtube-live-connection-logs";
+        private static readonly string _FirestoreYouTubeLiveCommentCollectionPath = "youTubeLiveChatMessages";
+        private static readonly string _FirestoreYouTubeUserCollectionPath = "youTubeUsers";
+        private static readonly string _FirestoreYouTubeLiveConnectedCollectionPath = "youTubeLiveConnectionLogs";
+        private static readonly string _FirestoreYouTubeLiveDisconnectedCollectionPath = "youTubeLiveConnectionLogs";
     }
 }

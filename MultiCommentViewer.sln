@@ -139,8 +139,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeLiveMessageParserTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirebasePlugin", "FirebasePlugin\FirebasePlugin.csproj", "{A195C686-2155-4C43-A2BF-F0B640413273}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirebasePluginTests", "FirebasePluginTests\FirebasePluginTests.csproj", "{B533FE91-8FBD-44E3-93AA-D289FFB199D8}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Alpha|Any CPU = Alpha|Any CPU
@@ -653,14 +651,6 @@ Global
 		{A195C686-2155-4C43-A2BF-F0B640413273}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A195C686-2155-4C43-A2BF-F0B640413273}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A195C686-2155-4C43-A2BF-F0B640413273}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B533FE91-8FBD-44E3-93AA-D289FFB199D8}.Alpha|Any CPU.ActiveCfg = Alpha|Any CPU
-		{B533FE91-8FBD-44E3-93AA-D289FFB199D8}.Alpha|Any CPU.Build.0 = Alpha|Any CPU
-		{B533FE91-8FBD-44E3-93AA-D289FFB199D8}.Beta|Any CPU.ActiveCfg = Beta|Any CPU
-		{B533FE91-8FBD-44E3-93AA-D289FFB199D8}.Beta|Any CPU.Build.0 = Beta|Any CPU
-		{B533FE91-8FBD-44E3-93AA-D289FFB199D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B533FE91-8FBD-44E3-93AA-D289FFB199D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B533FE91-8FBD-44E3-93AA-D289FFB199D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B533FE91-8FBD-44E3-93AA-D289FFB199D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

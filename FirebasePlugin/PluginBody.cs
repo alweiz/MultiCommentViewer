@@ -53,8 +53,8 @@ namespace FirebasePlugin
             IYouTubeLiveComment comment = message as IYouTubeLiveComment;
             if (null != comment)
             {
-                _model.AddYouTubeLiveMessage(comment);
                 _model.AddYouTubeUser(comment);
+                _model.AddYouTubeLiveMessage(comment);
             }
             IYouTubeLiveConnected connected = message as IYouTubeLiveConnected;
             if (null != connected)
